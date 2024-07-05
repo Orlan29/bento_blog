@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Aptos;
+  src: url("../fonts/aptos-bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Aptos;
+  src: url("../fonts/aptos-semibold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Aptos;
+  src: url("../fonts/aptos.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Candara;
+  src: url("../fonts/Candara_Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Candara;
+  src: url("../fonts/candara.ttf");
+  font-weight: normal;
+}
+
+* {
+  font-family: "Candara", sans-serif;
+}
+
+body {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-justify: auto;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: rgb(17, 17, 85);
+}
+
+li {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.video-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 362px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+video {
+  border-radius: 25px;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.image-container > img {
+  width: 100%;
+  height: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 560px;
+}
